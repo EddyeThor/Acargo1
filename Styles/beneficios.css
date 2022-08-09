@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+.beneficios{
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-bottom: 30px;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    
+    
+}
+
+
+
+
+
+@media screen and (max-width:800px){
+    .beneficios {
+        width: 80%;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap:30px;
+        padding: 35px 0px;
+    }
+}
+.left{
+    grid-area: 1 / 1 / 2 / 2;
+    height: 900px;
+    width: 100%;
+  
+}
+.right{
+    height: 900px;
+    width: 100%;
+
+    
+}
+.path {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 50px;
+    grid-row-gap: 0px;
+    }
+    
+    
+    .imagens_left{
+        width: 250px;
+        margin-top: 50px;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        margin-left: 210px;
+        
+    }
+    .imagens_right{
+        width: 250px;
+        margin-top: 250px ;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        margin-left:  40px;
+        
+    }
+    .sub3{
+        
+        height: 100px;
+        width: 400px;
+        justify-content: center;
+        text-align: center ;
+    }
+    .padre {
+        display: flex;
+        justify-content: center;
+      }
+      .beneficios .h3l, .h3r {
+          text-align: center;
+          
+      }
+      .beneficios .pl , .pr{
+        text-align: center;
+          
+      }
+
+      .texl{
+          
+          width: 200px;
+          align-content: center;
+          margin-left: 230px;
+          margin-top: 30px;
+      }
+      .texr{
+        margin-top: 30px;
+          width: 150px;
+          align-content: center;
+          margin-left: 100px;
+      }

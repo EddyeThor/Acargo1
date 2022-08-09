@@ -1,0 +1,48 @@
+.bienbenida{
+  box-sizing: border-box;
+  
+
+}
+.portada{
+  height: 100%;
+  width: 100%;
+  
+}
+.texto{
+  
+  
+  width: 450px;
+  position: absolute;
+  margin-top: 80px;
+  margin-left: 100px;
+}
+.bienbenida h1{
+  font-size: 60px;
+  color: white;
+  
+}
+.sub1{
+  color: white;
+  font-size: 22px;
+  text-align: left;
+}
+.sub2{
+  margin-top: 10px;
+  color: white;
+  font-size: 15px;
+  margin-bottom: 20px;
+  text-align: left;
+}
+.butt_unirme{
+  align-items: center;
+    background-color: #ef433f;
+    border-radius: 20px;
+    color: white;
+    width: 140px;
+    height: 40px;
+    border-color: #ffffffad;
+    margin-left: 110px;
+    margin-top: 10px;
+    font-size: 20px;
+    position: absolute;
+}

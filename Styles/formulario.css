@@ -1,0 +1,38 @@
+.form{
+    box-sizing: border-box;
+     /* Centrar el formulario en la página */
+  margin: 0 auto;
+  width:800px;
+  /* Esquema del formulario */
+  padding: 1em;
+ 
+  border-radius: 1em;
+  margin-bottom: 30px;
+  
+}
+.img-fondo{
+    width: 150px;
+    
+    
+}
+.derechaa{
+    
+    float: right;
+    margin-top: -420px;
+    margin-right: 30;
+}
+.form input{
+    border-radius: 30px;
+    height: 35px;
+    width: 270px;
+    margin: 10px 10px ;
+
+}
+.form .butt-enviar{
+    color: white;
+    background-color: red;
+    width: 140px;
+    height: 40px;
+    border-radius: 20px;
+    margin-left:450px ;
+}
